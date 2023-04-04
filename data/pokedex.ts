@@ -1,8 +1,8 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bulbasaur: {
 		num: 1,
-		name: "Bulbasaur",
-		types: ["Fire", "Poison"],
+		name: "BulbasauR",
+		types: ["Grass", "Poison"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
 		abilities: {0: "Overgrow", H: "Chlorophyll"},
@@ -6513,6 +6513,20 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 		otherFormes: ["Absol-Mega"],
 		formeOrder: ["Absol", "Absol-Mega"],
+	},
+	absolpartner: {
+		num: 359,
+		name: "Absol-Partner",
+		baseSpecies: "Absol",
+		forme: "Mega",
+		types: ["Dark"],
+		baseStats: {hp: 87, atk: 150, def: 81, spa: 101, spd: 81, spe: 101},
+		abilities: {0: "Pressure", 1: "Super Luck", 2: "Magic Bounce", H: "Justified"}
+		heightm: 1.2,
+		weightkg: 49,
+		color: "White",
+		eggGroups: ["Field"],
+		requiredItem: "Absolite",
 	},
 	absolmega: {
 		num: 359,
