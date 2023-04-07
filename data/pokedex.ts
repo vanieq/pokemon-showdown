@@ -6519,15 +6519,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Absol-Partner",
 		baseSpecies: "Absol",
 		forme: "Absol-Partner",
-		changesFrom: "Absol",
 		types: ["Fire"],
 		baseStats: {hp: 87, atk: 150, def: 81, spa: 101, spd: 81, spe: 101},
 		abilities: {0: "Pressure", 1: "Super Luck", 2: "Magic Bounce", H: "Justified"},
 		heightm: 1.2,
 		weightkg: 49,
 		color: "White",
-		eggGroups: ["Field"],
-		requiredItem: "Absolite",
+		eggGroups: ["Field"]
 	},
 	absolmega: {
 		num: 359,
